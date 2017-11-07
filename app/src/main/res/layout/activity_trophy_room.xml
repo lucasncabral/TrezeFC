@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trophy_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/marca_dagua"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.lucas.trezefc.TrophyRoomActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/serie_b"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Campeonato Brasileiro - Série B (1)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:text="1986"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/trophy_campeonato_paraibano_2"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Campeonato Paraíbano (16)"
+                android:id="@+id/textView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1940"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1941"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1950"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1966"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1975"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1981"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="15dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1982"/>
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@color/colorAccent"
+            android:text="1983"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1985"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="1989"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2000"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2001"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2005"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2006"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2010"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+                    android:textSize="10dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorAccent"
+                    android:text="2011"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/gray"
+        android:layout_marginTop="15dp"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@drawable/unknow_trophy"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Copa Paraíba (1)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorAccent"
+                android:text="2009"/>
+
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

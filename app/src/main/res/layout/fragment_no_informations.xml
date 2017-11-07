@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lucas.trezefc.fragment.FragmentNovidades"
+    android:background="@drawable/marca_dagua">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="160dp"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:text="@string/without_internet"/>
+</FrameLayout>

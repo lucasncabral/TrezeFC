@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:textAlignment="center"
+            android:padding="6dp"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginLeft="2dp"
+            android:id="@+id/colocation"
+            android:background="@color/gray"
+            android:text="10"/>
+
+        <ImageView
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/name"
+            android:padding="6dp"
+            android:textColor="@color/colorPrimary"
+            android:text="TREZE FC"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/gray"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/values"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="-13"
+            />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/gray"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/values2"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="20"
+            />
+
+        <LinearLayout
+        android:layout_width="1dp"
+            android:background="@color/gray"
+        android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/values3"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="20"
+            />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/gray"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/values4"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="20"
+            />
+
+        <LinearLayout
+            android:layout_width="1dp"
+            android:background="@color/gray"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="32dp"
+            android:layout_height="30dp"
+            android:id="@+id/values5"
+            android:padding="6dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:text="20"
+            android:layout_marginRight="5dp"
+            />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "37685073340",
+    "firebase_url": "https://nacaotrezeana-5714f.firebaseio.com",
+    "project_id": "nacaotrezeana-5714f",
+    "storage_bucket": "nacaotrezeana-5714f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37685073340:android:ad62f89e509dc3ff",
+        "android_client_info": {
+          "package_name": "com.cabral.lucas.nacaotrezeana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37685073340-tbl8et04o7a1b96rrk86eoupeklfkl56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdC3-KlX2JsAJjtkhm5e4KMNWKtS700MY"
+        },
+        {
+          "current_key": "AIzaSyDQ13KoxW4vj_kC39Tgg_C1FPV1mAP6PFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

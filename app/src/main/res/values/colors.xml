@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    -->
+
+
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorBackgroundCard">#bc000000</color>
+    <color name="colorBackgroundDarkCard">#de000000</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="gray">#dedede</color>
+    <color name="grayDark">#4d4d4d</color>
+
+
+    <color name="yellow">#a69b07</color>
+    <color name="classified">#2f93d1</color>
+    <color name="desclassified">#c93b3e</color>
+
+</resources>

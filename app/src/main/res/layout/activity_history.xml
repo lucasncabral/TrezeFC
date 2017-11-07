@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/marca_dagua"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:id="@+id/scroll"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="     No dia 07 de setembro de 1925, foi fundado o time mais curioso do futebol brasileiro TREZE FC."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/history_treze1"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/primerio_time"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_margin = "10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/history_treze2"/>
+    <!--
+
+
+    --></LinearLayout>
+</ScrollView>
+</LinearLayout>

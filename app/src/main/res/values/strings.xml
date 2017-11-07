@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TrezeFC</string>
+    <string name="treze">TREZE</string>
+    <string name="banner_ad_unit_id">ca-app-pub-6946149731834898/5158313761</string>
+    <string name="app_banner_ad_unit_id">ca-app-pub-6946149731834898~3681580561</string>
+
+    <string name="action_settings">Desenvolvedor</string>
+
+    <string name="without_internet">Ops! Ocorreu um erro, por favor verifique sua conexão. Os dados do aplicativo podem não estar atualizados!</string>
+    <string name="title_classification">Classificação</string>
+    <string name="fragment_betting">Apostas</string>
+    <string name="tickets_prices">Preços Ingressos</string>
+    <string name="title_trophy_room">Sala de troféus</string>
+    <string name="title_organization">Organização</string>
+    <string name="title_history">História</string>
+    <string name="title_crowd">Torcida</string>
+    <string name="coming_soon">Em breve, espaço para fotos e discussões da torcida do maior da Paraíba!</string>
+    <string name="history_treze1">     Tudo começou em uma reunião no dia 02 de setembro (quinta-feira), à noite, no clube dos comerciários, onde hoje está situado o o prédio da Associação Comercial, na Avenida Floriano Peixoto. Nesta reunião se propôs fundar uma agremiação esportiva em Campina Grande - Antônio Fernandes Bióca (foto ao lado) foi o que mais se entusiasmou com a idéia, tanto que marcou uma reunião formal para o dia 07 de setembro, ás 09 horas da  manhã, em sua residência.\n\n   Compareceram a reunião os senhores José de Castro, José Eloy Junior, Amélio Leite,  Plácido Véras, José Sodré, Zacarias Ribeiro, José Rodolfo, Olívio Barreto, José Casado,   Alberto Santos, Osmindo Lima e Luiz Gomes, além do anfitrião. Porém, nesta reunião, não   se definiu o nome do novo clube - ficou apenas rotulado como uma \"Sociedade Desportiva\".\n\n   O nome \"Treze Futebol Clube\" só foi definido na reunião de 20 de outubro de 1925, quando José Casado resolveu contar o número de presentes à reunião e observou que eram treze componentes desde a primeira reunião, então sugeriu duas opções TREZE SPORT CLUBE ou TREZE FUTEBOL CLUBE e como a atividade a ser desenvolvida seria o futebol, ficaram com a segunda opção.</string>
+    <string name="history_treze2">O primeiro jogo oficial do Treze foi realizado no dia 1º de maio de 1926, no Campo dos Currais, contra o Palmeiras Sport Club de João Pessoa, um importante clube da época. O time do Treze era formado por: Olívio; Zé Eloy e Lima; Eurico, Zacarias do Ó e Zé de Castro; Rodolfo, Casado, Reis, Cotó e Guiné. Nesta mesma partida saiu o primeiro gol do Treze, marcado por Plácido Veras, o Guiné, que também foi um dos fundadores do time. Guiné recebeu este apelido pelo fato de ser um jogador bastante veloz. Plácido Veras era irmão de Manoel de Veras, que era cunhado de Antônio Barbosa Guimarães, \"Massaroca\", um dos maiores pontas do futebol amador da Paraíba. Tendo atuado nos maiores times da época.\n\n    A primeira partida interestadual do Treze aconteceu no dia 11 de junho de 1928, contra o Paissandu-RN, em Natal. O Treze venceu o jogo por 3 a 1 e conquistou a Taça Paissandu. O clube potiguar pediu revanche e novamente perdeu para o Treze, desta vez pelo placar de 2 a 1.</string>
+    <string name="title_team">Elenco</string>
+    <string name="informacoes">Informações</string>
+    <string name="server_uri">https://es1-server.herokuapp.com</string>
+    <string name="preference_file_key">preferences</string>
+    <string name="error_make_request">Verifique sua conexão!</string>
+    <string name="mesa_diretora">Presidente\n José Petrônio Queiroga Gadelha \n Vice-presidente\n Hênio Azevedo \n\n Assessores: Hítalo Márcio, Carlos Alberto e Leonardo Firmino \n Diretor Financeiro: Petrônio Gadelha \n Diretor de Patrimônio: Juarez Lourenço \n Diretor Jurídico: George Ramalho, Luiz \n Diretoria de Relações Institucionais: Luiz \n Diretoria de Marketing e Negócios: Emir Candeia Filho e Helio Soares \n Diretor Médico: Dr. Lúcio César  \n Diretoria de Futebol: Alan Kardec, Fabio Azevedo e Evaldo Sabino \nDiretor Administrativo: Paulo Sérgio \n Assessoria de Comunicação: Ramon</string>
+    <string name="hello_world">Hello World</string>
+</resources>

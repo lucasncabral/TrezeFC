@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_trophy_room"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/bg"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.lucas.trezefc.OrganizationActivity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="50dp"
+        android:src="@drawable/brasao"/>
+
+    <!--
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="Endereço"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="Rua Teixeira de Freita\n São José\n Campina Grande-PB\n   CEP 58108-610"
+        android:id="@+id/textView3" />
+        -->
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/mesa_diretora"/>
+    <!--
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:text="Desenvolvedor"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:text="Lucas Nascimento Cabral"/>
+        -->
+
+
+</LinearLayout>

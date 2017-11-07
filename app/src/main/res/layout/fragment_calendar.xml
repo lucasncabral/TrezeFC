@@ -1,0 +1,191 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frameLayout"
+    tools:context="com.cabral.lucas.nacaotrezeana.fragment.FragmentNovidades"
+    android:background="@drawable/marca_dagua"
+    android:focusableInTouchMode="true"
+    android:fillViewport="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:id="@+id/scroll"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="30dp"
+        android:id="@+id/tableParaibano"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:padding="3dp"
+            android:layout_marginStart="15dp"
+            android:text="CLASSIFICAÇÃO PARAÍBANO"
+            android:textSize="16dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="normal|bold" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_marginStart="70dp"
+            android:src="@drawable/ic_keyboard_arrow_right_white_24dp"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="30dp"
+                android:id="@+id/tableBrasileirao"
+                android:background="@color/gray"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:padding="3dp"
+                    android:layout_marginStart="15dp"
+                    android:text="CLASSIFICAÇÃO BRASILEIRO"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorAccent"
+                    android:textStyle="normal|bold"
+                    android:id="@+id/textView2" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_marginStart="70dp"
+                    android:src="@drawable/ic_keyboard_arrow_right_white_24dp"
+                    android:layout_height="30dp" />
+
+            </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/nextGameLayout"
+        android:background="@color/colorBackgroundDarkCard"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="50dp"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/home"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/treze"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:id="@+id/date"
+                    android:text="12/09/11"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/time"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorAccent"
+                    android:textAlignment="center"
+                    android:text="19:30"/>
+
+            </LinearLayout>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/internacional"
+            android:id="@+id/visit"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorAccent"
+                android:textAlignment="center"
+                android:id="@+id/local"
+                android:text="Estádio Presidente Vargas"/>
+
+            <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="80dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="46dp"
+                    android:id="@+id/priceTickets"
+                    android:src="@drawable/invoice"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/dices"
+                    android:src="@drawable/dices"/>
+
+            </LinearLayout>
+            -->
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:scrollbars="vertical" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
